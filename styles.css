@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    max-width: 100%;
+    font-family: monospace 'Courier New', Courier;
+    color: #000000;
+}
+
+.landing-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.recipe-backdrop {
+    display: block;
+    border-top: 1px solid #FFD700;
+    margin: 10px auto;
+    height: auto;
+    width: 400px;
+    border-bottom: 1px solid #FFD700;
+}
+
+h1, h2, h3 {
+    color: #DC143C;
+}
+
+.recipe-head {
+    text-align: center;
+}
+
+.recipe-list {
+    margin-top: -20px;
+}
