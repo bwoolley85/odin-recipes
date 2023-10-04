@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
     max-width: 100%;
-    font-family: monospace 'Courier New', Courier;
+    font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
 
@@ -17,10 +17,12 @@ body {
 .recipe-backdrop {
     display: block;
     border-top: 1px solid #FFD700;
+    border-bottom: 1px solid #FFD700;
+    border-left: 1px solid #FFD700;
+    border-right: 1px solid #FFD700;
     margin: 10px auto;
     height: auto;
     width: 400px;
-    border-bottom: 1px solid #FFD700;
 }
 
 h1, h2, h3 {
@@ -33,4 +35,24 @@ h1, h2, h3 {
 
 .recipe-list {
     margin-top: -20px;
+}
+
+.button-link {
+    text-decoration: none; /*Remove the underline */
+    color: inherit; /* Use the default text color */
+    background-color: #FFD700;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 10px auto;
+    font-size: 20px;
+    margin: 3px;
+}
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Use the default text color */
+  }
+
+.recipe-head {
+    text-align: center;
 }
